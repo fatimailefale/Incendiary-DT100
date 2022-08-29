@@ -17,7 +17,7 @@ body {
 
 .grid-container {
 	width: 960px;
-    grid-template-columns: 25% 25% 40px 50%;
+    grid-template-columns: 25% 25% 25% 25%;
 	background-color: white;
     color: black;
 	display: grid;
@@ -31,9 +31,13 @@ body {
     grid-gap: 10px;
 }
 
+.shop {
+    background-color: red;
+}
+
 .o-container {
     padding: 5%;
-    grid-column: 1 / 2;
+    width: 600px;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -61,7 +65,7 @@ body {
 
 .t-container {
     padding: 5%;
-    grid-column: 2 / 3;
+    width: auto;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -71,7 +75,7 @@ body {
 
 .th-container {
     padding: 5%;
-    grid-column: 3 / 4;
+    width: auto;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -81,11 +85,12 @@ body {
 .t2-container {
     padding: 5%;
     grid-column: 2 / 4;
-	background-color: white;
+	background-color: #9F0C00;
     margin: auto;
+    text-align: center;
 }
 
-.t2-container {
+.op-container {
     padding: 5%;
     grid-column: 2 / 4;
 	background-color: white;
@@ -131,7 +136,7 @@ body {
     color: white;
 	width: 850px;
     height: auto;
-	background-color: red;
+	background-color: #C21D10;
     text-align: center;
 	/* container = grid*/
 	display: grid;
@@ -167,12 +172,12 @@ body {
     padding-right: 120px;
 }
 
-.nav-item a{
-     color: red;
-     text-decoration:none;
+a:hover {
+    color: #159224;
+    text-decoration: underline;
 }
 
-.nav-item a:hover {
-    color: #aec860;
-    text-decoration: overline;
+ a{
+     color: #C21D10;
+     text-decoration:none;
 }
