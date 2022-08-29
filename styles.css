@@ -145,6 +145,16 @@ body {
 	border-width: auto;
 }
 
+.head {
+    color: white;
+    width: 340px;
+    height: auto;
+	background-color: #9F0C00;
+    text-align: center;
+	display: grid;
+	margin: auto;
+}
+
 .nav-menu {
     display: grid;
     list-style-type: none;
