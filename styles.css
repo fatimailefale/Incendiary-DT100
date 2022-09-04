@@ -17,7 +17,7 @@ body {
 
 .grid-container {
 	width: 960px;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 	background-color: white;
     color: black;
 	display: grid;
@@ -37,7 +37,7 @@ body {
 
 .o-container {
     padding: 5%;
-    width: 600px;
+    grid-column: 1 / 2;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -65,7 +65,7 @@ body {
 
 .t-container {
     padding: 5%;
-    width: auto;
+    grid-column: 2 / 3;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -75,7 +75,7 @@ body {
 
 .th-container {
     padding: 5%;
-    width: auto;
+    grid-column: 4 / 5;
 	background-color: white;
     border-style: groove;
     border-width: 1px;
@@ -100,15 +100,6 @@ body {
 
 .f-container {
     padding: 5%;
-    grid-column: 4 / 5;
-	background-color: white;
-    border-style: groove;
-    border-width: 1px;
-    border-color: red;
-}
-
-.fi-container {
-    padding: 1%;
     grid-column: 1 / 5;
 	background-color: white;
     border-style: groove;
