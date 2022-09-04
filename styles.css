@@ -125,10 +125,10 @@ body {
 
 .header {
     color: white;
-	width: 850px;
+	width: 960px;
     height: auto;
 	background-color: #C21D10;
-    text-align: center;
+    justify-content: center;
 	/* container = grid*/
 	display: grid;
 	margin: auto;
@@ -146,10 +146,20 @@ body {
 	margin: auto;
 }
 
+.head2 {
+    color: #C21D10;
+    width: 340px;
+    height: auto;
+    text-align: center;
+	display: grid;
+	margin: auto;
+}
+
 .nav-menu {
     display: grid;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 15px;
+    grid-column: 1 / 5;
     background-color: white;
     padding-top:10px;
     padding-bottom:10px;
